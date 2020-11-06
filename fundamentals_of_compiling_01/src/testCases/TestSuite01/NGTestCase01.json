@@ -1,0 +1,21 @@
+{
+  "desc":"ab*",
+  "s": "S",
+  "p":[
+    {
+      "left": "S",
+      "right1": "a",
+      "right2": "B"
+    },
+    {
+      "left": "B",
+      "right1": "b",
+      "right2": "B"
+    },
+    {
+      "left": "B",
+      "right1": "",
+      "right2": ""
+    }
+  ],
+}

@@ -1,0 +1,21 @@
+{
+  "desc": "ab*",
+  "s": ["S"],
+  "f": ["X"],
+  "edges": [
+    {
+      "src": "S",
+      "match": "a",
+      "dst": "B"
+    },
+    {
+      "src": "B",
+      "match": "b",
+      "dst": "B"
+    },    {
+      "src": "B",
+      "match": "",
+      "dst": "X"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "desc": "(ac*|bd)e*",
+  "s": ["S"],
+  "f": ["X"],
+  "edges": [
+    {
+      "src": "S",
+      "match": "a",
+      "dst": "B"
+    },
+    {
+      "src": "S",
+      "match": "b",
+      "dst": "A"
+    },
+    {
+      "src": "B",
+      "match": "c",
+      "dst": "B"
+    },
+    {
+      "src": "B",
+      "match": "",
+      "dst": "X"
+    },
+    {
+      "src": "A",
+      "match": "d",
+      "dst": "C"
+    },
+    {
+      "src": "C",
+      "match": "",
+      "dst": "D"
+    },
+    {
+      "src": "D",
+      "match": "e",
+      "dst": "D"
+    },
+    {
+      "src": "D",
+      "match": "",
+      "dst": "X"
+    }
+  ]
+}
