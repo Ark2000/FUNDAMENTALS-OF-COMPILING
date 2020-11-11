@@ -4,53 +4,73 @@
   "p":[
     {
       "left": "A",
-      "right1": "0",
-      "right2": "B"
-    },
-    {
-      "left": "A",
-      "right1": "0",
+      "right1": "",
       "right2": ""
     },
     {
       "left": "A",
-      "right1": "1",
+      "right1": "a",
+      "right2": "B"
+    },
+    {
+      "left": "B",
+      "right1": "a",
+      "right2": "E"
+    },
+    {
+      "left": "B",
+      "right1": "b",
       "right2": "D"
     },
     {
       "left": "B",
-      "right1": "0",
-      "right2": "D"
-    },
-    {
-      "left": "B",
-      "right1": "1",
+      "right1": "c",
       "right2": "C"
     },
     {
       "left": "C",
-      "right1": "0",
-      "right2": "B"
+      "right1": "a",
+      "right2": "A"
     },
     {
       "left": "C",
-      "right1": "0",
+      "right1": "a",
       "right2": ""
     },
     {
       "left": "C",
-      "right1": "1",
+      "right1": "b",
+      "right2": "E"
+    },
+    {
+      "left": "C",
+      "right1": "c",
       "right2": "D"
     },
     {
       "left": "D",
-      "right1": "0",
-      "right2": "D"
+      "right1": "a",
+      "right2": "A"
     },
     {
       "left": "D",
-      "right1": "1",
-      "right2": "D"
+      "right1": "a",
+      "right2": ""
+    },
+    {
+      "left": "D",
+      "right1": "b",
+      "right2": "E"
+    },
+    {
+      "left": "E",
+      "right1": "a",
+      "right2": "A"
+    },
+    {
+      "left": "E",
+      "right1": "a",
+      "right2": ""
     }
   ]
 }

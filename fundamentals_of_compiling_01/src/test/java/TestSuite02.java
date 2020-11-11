@@ -26,7 +26,7 @@ public class TestSuite02 {
 
     //测试确定有限自动机到右线性正规文法的转换
     @Test
-    public void ng2fa() {
+    public void fa2ng() {
         FA fa = FA.loadFA(fa_filepath);
         NG actualNG = FA2NG.transform(fa);
         NG expectedNG = NG.loadNG(ng_filepath);

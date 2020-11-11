@@ -1,56 +1,51 @@
 {
-  "desc":"0(10)*",
+  "desc":"random2",
   "s": "A",
   "p":[
     {
       "left": "A",
-      "right1": "0",
-      "right2": "B"
-    },
-    {
-      "left": "A",
-      "right1": "0",
+      "right1": "",
       "right2": ""
     },
     {
       "left": "A",
-      "right1": "1",
+      "right1": "a",
+      "right2": "B"
+    },
+    {
+      "left": "A",
+      "right1": "a",
+      "right2": ""
+    },
+    {
+      "left": "A",
+      "right1": "b",
+      "right2": "C"
+    },
+    {
+      "left": "B",
+      "right1": "a",
       "right2": "D"
     },
     {
       "left": "B",
-      "right1": "0",
-      "right2": "D"
+      "right1": "a",
+      "right2": ""
     },
     {
       "left": "B",
-      "right1": "1",
+      "right1": "b",
       "right2": "C"
     },
     {
       "left": "C",
-      "right1": "0",
-      "right2": "B"
+      "right1": "a",
+      "right2": "D"
     },
     {
       "left": "C",
-      "right1": "0",
+      "right1": "a",
       "right2": ""
-    },
-    {
-      "left": "C",
-      "right1": "1",
-      "right2": "D"
-    },
-    {
-      "left": "D",
-      "right1": "0",
-      "right2": "D"
-    },
-    {
-      "left": "D",
-      "right1": "1",
-      "right2": "D"
     }
   ]
 }

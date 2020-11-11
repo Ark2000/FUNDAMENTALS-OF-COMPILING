@@ -1,47 +1,57 @@
 {
-  "desc": "0(10)*",
+  "desc": "random3",
   "s": ["A"],
-  "f": ["B"],
+  "f": ["A"],
   "edges": [
     {
       "src": "A",
-      "match": "0",
+      "match": "a",
       "dst": "B"
     },
     {
-      "src": "A",
-      "match": "1",
+      "src": "B",
+      "match": "a",
+      "dst": "E"
+    },
+    {
+      "src": "B",
+      "match": "b",
       "dst": "D"
     },
     {
       "src": "B",
-      "match": "0",
-      "dst": "D"
-    },
-    {
-      "src": "B",
-      "match": "1",
+      "match": "c",
       "dst": "C"
     },
     {
       "src": "C",
-      "match": "0",
-      "dst": "B"
+      "match": "a",
+      "dst": "A"
     },
     {
       "src": "C",
-      "match": "1",
+      "match": "b",
+      "dst": "E"
+    },
+    {
+      "src": "C",
+      "match": "c",
       "dst": "D"
     },
     {
       "src": "D",
-      "match": "0",
-      "dst": "D"
+      "match": "a",
+      "dst": "A"
     },
     {
       "src": "D",
-      "match": "1",
-      "dst": "D"
+      "match": "b",
+      "dst": "E"
+    },
+    {
+      "src": "E",
+      "match": "a",
+      "dst": "A"
     }
   ]
 }

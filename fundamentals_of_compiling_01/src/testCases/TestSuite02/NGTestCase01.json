@@ -1,0 +1,56 @@
+{
+  "desc":"0(10)*",
+  "s": "A",
+  "p":[
+    {
+      "left": "A",
+      "right1": "0",
+      "right2": "B"
+    },
+    {
+      "left": "A",
+      "right1": "0",
+      "right2": ""
+    },
+    {
+      "left": "A",
+      "right1": "1",
+      "right2": "D"
+    },
+    {
+      "left": "B",
+      "right1": "0",
+      "right2": "D"
+    },
+    {
+      "left": "B",
+      "right1": "1",
+      "right2": "C"
+    },
+    {
+      "left": "C",
+      "right1": "0",
+      "right2": "B"
+    },
+    {
+      "left": "C",
+      "right1": "0",
+      "right2": ""
+    },
+    {
+      "left": "C",
+      "right1": "1",
+      "right2": "D"
+    },
+    {
+      "left": "D",
+      "right1": "0",
+      "right2": "D"
+    },
+    {
+      "left": "D",
+      "right1": "1",
+      "right2": "D"
+    }
+  ]
+}
