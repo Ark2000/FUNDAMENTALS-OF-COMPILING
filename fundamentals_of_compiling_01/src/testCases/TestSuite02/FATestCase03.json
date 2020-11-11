@@ -1,0 +1,47 @@
+{
+  "desc": "0(10)*",
+  "s": ["A"],
+  "f": ["B"],
+  "edges": [
+    {
+      "src": "A",
+      "match": "0",
+      "dst": "B"
+    },
+    {
+      "src": "A",
+      "match": "1",
+      "dst": "D"
+    },
+    {
+      "src": "B",
+      "match": "0",
+      "dst": "D"
+    },
+    {
+      "src": "B",
+      "match": "1",
+      "dst": "C"
+    },
+    {
+      "src": "C",
+      "match": "0",
+      "dst": "B"
+    },
+    {
+      "src": "C",
+      "match": "1",
+      "dst": "D"
+    },
+    {
+      "src": "D",
+      "match": "0",
+      "dst": "D"
+    },
+    {
+      "src": "D",
+      "match": "1",
+      "dst": "D"
+    }
+  ]
+}
