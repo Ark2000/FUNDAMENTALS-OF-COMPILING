@@ -1,0 +1,36 @@
+{
+  "desc": "group3&test1-->abcd*",
+  "s": "S",
+  "p":[
+    {
+      "left": "S",
+      "right1": "a",
+      "right2": "A"
+    },
+    {
+      "left": "A",
+      "right1": "b",
+      "right2": "B"
+    },
+    {
+      "left": "B",
+      "right1": "c",
+      "right2": "C"
+    },
+    {
+      "left": "C",
+      "right1": "d",
+      "right2": "D"
+    },
+    {
+      "left": "D",
+      "right1": "d",
+      "right2": "D"
+    },
+    {
+      "left": "D",
+      "right1": "",
+      "right2": ""
+    }
+  ]
+}

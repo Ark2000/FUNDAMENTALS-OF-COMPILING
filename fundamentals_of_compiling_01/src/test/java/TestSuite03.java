@@ -10,12 +10,12 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class TestSuite01 {
+public class TestSuite03 {
 
     private final String ng_filepath;
     private final String fa_filepath;
 
-    public TestSuite01(Pair<String, String> pair) {
+    public TestSuite03(Pair<String, String> pair) {
         this.ng_filepath = pair.getKey();
         this.fa_filepath = pair.getValue();
     }
@@ -34,9 +34,11 @@ public class TestSuite01 {
     @Parameterized.Parameters
     public static Collection testPlan1() {
         List<Pair<String, String>> testPlan = new ArrayList<>();
-        testPlan.add(new Pair<>("src/testCases/TestSuite01/NGTestCase01.json", "src/testCases/TestSuite01/FATestCase01.json"));
-        testPlan.add(new Pair<>("src/testCases/TestSuite01/NGTestCase02.json", "src/testCases/TestSuite01/FATestCase02.json"));
-        testPlan.add(new Pair<>("src/testCases/TestSuite01/NGTestCase03.json", "src/testCases/TestSuite01/FATestCase03.json"));
+        testPlan.add(new Pair<>("src/testCases/TestSuite03/NGTestCase01.json", "src/testCases/TestSuite03/FATestCase01.json"));
+        testPlan.add(new Pair<>("src/testCases/TestSuite03/NGTestCase02.json", "src/testCases/TestSuite03/FATestCase02.json"));
+        testPlan.add(new Pair<>("src/testCases/TestSuite03/NGTestCase03.json", "src/testCases/TestSuite03/FATestCase03.json"));
+        testPlan.add(new Pair<>("src/testCases/TestSuite03/NGTestCase04.json", "src/testCases/TestSuite03/FATestCase04.json"));
+        testPlan.add(new Pair<>("src/testCases/TestSuite03/NGTestCase05.json", "src/testCases/TestSuite03/FATestCase05.json"));
         return testPlan;
     }
 }

@@ -1,0 +1,47 @@
+{
+  "desc": "group3&test3-->(ab*|bd)e*",
+  "s": ["S"],
+  "f": ["X"],
+  "edges": [
+    {
+      "src": "S",
+      "match": "a",
+      "dst": "B"
+    },
+    {
+      "src": "S",
+      "match": "b",
+      "dst": "A"
+    },
+    {
+      "src": "B",
+      "match": "b",
+      "dst": "B"
+    },
+    {
+      "src": "B",
+      "match": "",
+      "dst": "X"
+    },
+    {
+      "src": "A",
+      "match": "d",
+      "dst": "B"
+    },
+    {
+      "src": "B",
+      "match": "",
+      "dst": "D"
+    },
+    {
+      "src": "D",
+      "match": "e",
+      "dst": "D"
+    },
+    {
+      "src": "D",
+      "match": "",
+      "dst": "X"
+    }
+  ]
+}

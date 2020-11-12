@@ -1,0 +1,56 @@
+{
+  "desc": "group3&test5-->(b*|ac*|de*)*",
+  "s": "S",
+  "p":[
+    {
+      "left": "S",
+      "right1": "a",
+      "right2": "B"
+    },
+    {
+      "left": "S",
+      "right1": "e",
+      "right2": "B"
+    },
+    {
+      "left": "S",
+      "right1": "c",
+      "right2": "D"
+    },
+    {
+      "left": "S",
+      "right1": "b",
+      "right2": "A"
+    },
+    {
+      "left": "B",
+      "right1": "b",
+      "right2": "B"
+    },
+    {
+      "left": "B",
+      "right1": "",
+      "right2": ""
+    },
+    {
+      "left": "A",
+      "right1": "d",
+      "right2": "B"
+    },
+    {
+      "left": "B",
+      "right1": "",
+      "right2": "D"
+    },
+    {
+      "left": "D",
+      "right1": "e",
+      "right2": "D"
+    },
+    {
+      "left": "D",
+      "right1": "",
+      "right2": ""
+    }
+  ]
+}

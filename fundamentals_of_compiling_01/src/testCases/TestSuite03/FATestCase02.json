@@ -1,0 +1,22 @@
+{
+  "desc": "group3&test2-->10*",
+  "s": ["S"],
+  "f": ["X"],
+  "edges": [
+    {
+      "src": "S",
+      "match": "1",
+      "dst": "A"
+    },
+    {
+      "src": "A",
+      "match": "0",
+      "dst": "A"
+    },
+    {
+      "src": "A",
+      "match": "",
+      "dst": "X"
+    }
+  ]
+}

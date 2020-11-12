@@ -1,0 +1,22 @@
+{
+  "desc": "group3&test2-->10*",
+  "s": "S",
+  "p":[
+    {
+      "left": "S",
+      "right1": "1",
+      "right2": "A"
+    },
+    {
+      "left": "A",
+      "right1": "0",
+      "right2": "A"
+    },
+    {
+      "left": "A",
+      "right1": "",
+      "right2": ""
+    }
+
+  ]
+}
